@@ -27,4 +27,6 @@ STOPSIGNAL SIGQUIT
 
 EXPOSE 8080
 
-CMD [ "/usr/sbin/nginx", "-g", "daemon off;"]
+CMD [ "ls", "-la"]
+
+#CMD [ "/usr/sbin/nginx", "-g", "daemon off;"]
